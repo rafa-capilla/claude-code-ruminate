@@ -1,0 +1,17 @@
+{
+  "name": "ruminate",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rafa Capilla"
+  },
+  "license": "Apache-2.0",
+  "description": "~ prompts and the ruminate tool: a background run of the session thinks it over, and its answer enters as the session's own",
+  "userConfig": {
+    "disableInRuminator": {
+      "type": "string",
+      "title": "Plugins off in the ruminator",
+      "description": "Plugins the background ruminator starts with switched off, comma-separated (name@marketplace): those that would act on their own in it, like a messaging listener. Empty leaves them all as the session has them.",
+      "default": ""
+    }
+  }
+}

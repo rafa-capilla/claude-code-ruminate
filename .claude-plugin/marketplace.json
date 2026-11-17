@@ -1,0 +1,13 @@
+{
+  "name": "ruminate",
+  "owner": {
+    "name": "Rafa Capilla"
+  },
+  "plugins": [
+    {
+      "name": "ruminate",
+      "source": "./",
+      "description": "Background rumination for a Claude Code session."
+    }
+  ]
+}
